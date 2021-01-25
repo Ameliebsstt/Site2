@@ -23,14 +23,14 @@ div{
 }
 
 .main-head{
-	background:D5EEED;
+	background:#D5EEED;
 	color: black;
 }
 
 nav {
 	position: fixed;
 	min-height: 10vh;
-	background:#CD5EEED;
+	background:#D5EEED;
 	display: flex; 
 	overflow: hidden;
 	width: 100%;
