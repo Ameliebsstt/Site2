@@ -19,7 +19,7 @@ body {
 
 div{
 	background-color: #ffffff;
-	margin: auto;
+	margin: 0;
 }
 
 .main-head{
@@ -40,9 +40,9 @@ nav {
 
 
 .logo img {
-	width: 20px;
+	width: 15px;
 	height: auto;
-	padding: 20px 100px;
+	padding: 20px 20px;
 
 }
 
