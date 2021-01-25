@@ -6,8 +6,21 @@
 
 
 body {
-  background-color: #A98B8B;
+  background-color: #ffffff;
 }
+
+.logo {
+	width: 10%;
+	height: auto;
+	padding: 100px 20px;
+}
+
+	.main-head{
+	background:#AAD3D1 ;
+	color: black;
+}
+
+
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
@@ -19,22 +32,7 @@ body {
 
 div{
 	background-color: #ffffff;
-	margin: 0;
-}
-
-.main-head{
-	background:#AAD3D1 ;
-	color: black;
-}
-
-nav {
-	position: fixed;
-	min-height: 10vh;
-	background:#AAD3D1 ;
-	display: flex; 
-	overflow: hidden;
-	width: 100%;
-	opacity: 0.9;
+	margin: -10;
 }
 
 
@@ -69,8 +67,22 @@ h2{
 	}
 
 
-.Partie2 {
+.partie2 {
 	display:flex;
+	background-color: #709694
+  }
 
 
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+	height: 100px;
+	position: fixed;
+	width: 100%;
+}
+
+.container-fluid {
+	height: 100%;
+}
+
+.neutre {
+	height: 25vh;
 }
