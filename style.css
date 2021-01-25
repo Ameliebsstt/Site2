@@ -23,14 +23,14 @@ div{
 }
 
 .main-head{
-	background:#D5EEED;
+	background:#AAD3D1 ;
 	color: black;
 }
 
 nav {
 	position: fixed;
 	min-height: 10vh;
-	background:#D5EEED;
+	background:#AAD3D1 ;
 	display: flex; 
 	overflow: hidden;
 	width: 100%;
@@ -48,7 +48,7 @@ nav {
 
 h1{
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	font-family: myFont;
 	font-style: 2.6rem;
