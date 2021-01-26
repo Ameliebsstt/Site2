@@ -73,7 +73,8 @@ h2{
 	margin: 10px;
 	background-color: #ffffff;
   }
- .titretexte{
+ .titretexte2{
+ 	background-color: #ffffff;
  	width: 60%;
  }
 
@@ -84,6 +85,12 @@ h2{
 
   .partie3{
 	background-color: #DAE1DE;
+}
+
+
+.titretexte3{
+ 	background-color: #DAE1DE;
+ 	margin:10px;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
