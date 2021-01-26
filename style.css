@@ -69,8 +69,13 @@ h2{
 
 .partie2 {
 	display:flex;
-	background-color: #709694
+	background-color: #DAE1DE;
   }
+
+  .titretexte{
+	background-color: #DAE1DE;
+  }
+
 
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
