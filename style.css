@@ -68,6 +68,7 @@ h2{
 
 
 .partie2 {
+	padding: 10px;
 	display:flex;
 	background-color: #DAE1DE;
   }

@@ -1,0 +1,94 @@
+@font-face{
+	font-family: "myFont";
+  src: url("Secret Winter.ttf")
+}
+/* Set the background color of body to tan */
+
+
+body {
+  background-color: #ffffff;
+}
+
+.logo {
+	width: 10%;
+	height: auto;
+	padding: 100px 20px;
+}
+
+	.main-head{
+	background:#AAD3D1 ;
+	color: black;
+}
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
+
+div{
+	background-color: #ffffff;
+	margin: -10;
+}
+
+
+
+.logo img {
+	width: 15px;
+	height: auto;
+	padding: 100px 20px;
+
+}
+
+h1{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: myFont;
+	font-style: 2.6rem;
+}
+
+p {
+	font-family: Inbue;
+	font-size:20px;
+
+}
+
+h2{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: Amatic SC;
+	font-style: 2.6rem;
+	}
+
+
+.partie2 {
+	display:flex;
+	background-color: #DAE1DE;
+  }
+
+  .titretexte{
+	background-color: #DAE1DE;
+  }
+
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+	height: 100px;
+	position: fixed;
+	width: 100%;
+}
+
+.container-fluid {
+	height: 100%;
+}
+
+.neutre {
+	height: 25vh;
+}
+
