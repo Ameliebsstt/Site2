@@ -69,8 +69,18 @@ h2{
 
 .partie2 {
 	display:flex;
+	justify-content: space-between;
+	margin: 10px;
 	background-color: #ffffff;
   }
+ .titretexte{
+ 	width: 60%;
+ }
+
+.photo2{
+	max-width: 40%;
+
+}
 
   .partie3{
 	background-color: #DAE1DE;
