@@ -72,26 +72,38 @@ h2{
 	align-items: column;
 	margin: 10px;
 	background-color: #ffffff;
+	width: 100%;
   }
+
  .titretexte2{
  	background-color: #ffffff;
- 	width: 60%;
+ 	align-items: center;
+ 	justify-content: flex-end;
  }
 
 
 .photo2{
-	max-width: 50%;
+	max-width: 100%;
 	justify-content: space-between;
 }
 
   .partie3{
 	background-color: #DAE1DE;
+	display:flex;
+	align-items: column;
+	margin: 10px;
+	width: 100%;
 }
 
 
 .titretexte3{
  	background-color: #DAE1DE;
  	margin:10px;
+}
+
+.photo3{
+	max-width: 100%;
+	justify-content: space-between;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
