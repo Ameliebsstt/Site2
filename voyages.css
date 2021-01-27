@@ -79,7 +79,9 @@ h2{
  }
 
 .photo2{
-	max-width: 40%;
+	max-width: 50%;
+	margin: 5px;
+	justify-content: space-between;
 
 }
 
