@@ -69,7 +69,7 @@ h2{
 
 .partie2 {
 	display:flex;
-	justify-content: space-between;
+	align-items: column;
 	margin: 10px;
 	background-color: #ffffff;
   }
