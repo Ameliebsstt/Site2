@@ -57,8 +57,6 @@ p {
 	font-size:18px;
 	text-align: justify;
 	padding: 5px;
-
-
 }
 
 h2{
@@ -110,6 +108,11 @@ h3{
 .titretexte3{
  	background-color: #DAE1DE;
  	margin:10px;
+}
+
+.column3{
+	background-color: #DAE1DE;
+	column-count: 2;
 }
 
 .photo3{

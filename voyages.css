@@ -55,6 +55,8 @@ h1{
 p {
 	font-family: Inbue;
 	font-size:20px;
+	text-align: justify;
+	margin: 5px;
 
 }
 
@@ -81,7 +83,7 @@ h2{
 
 .photo2{
 	max-width: 50%;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
   .partie3{
