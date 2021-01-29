@@ -54,7 +54,10 @@ h1{
 
 p {
 	font-family: Inbue;
-	font-size:20px;
+	font-size:18px;
+	text-align: justify;
+	padding: 5px;
+
 
 }
 
@@ -65,6 +68,14 @@ h2{
 	font-family: Amatic SC;
 	font-style: 2.6rem;
 	}
+
+h3{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family:myFont;
+	font-style: 1.6rem;
+}
 
 
 .partie2 {
@@ -118,4 +129,13 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 
 .neutre {
 	height: 25vh;
+}
+
+.column{ 
+column-count: 3;
+
+}
+
+ul{
+	align-items: : center;
 }
