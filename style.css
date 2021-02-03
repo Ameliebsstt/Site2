@@ -117,13 +117,14 @@ ul{
 	}
 
 	.footer-widget-area{
-		padding: 50px 0;
+		padding: 10px 0;
 	}
 
 /* main footer inner css */
 
 .footer-widget-area p{
 		font-size: 20px;
+		font-family: Inbue;
 	}
 
 	.footer-widget-area li{
@@ -133,11 +134,14 @@ ul{
 	.footer-widget-area li a{
 		font-size: 20px;
 		color: var(--black);
+		font-family: Inbue;
+		text-decoration: none;
 	}
 
 	.footer-widget-area li a:hover{
 	 text-decoration: none;
-	 color: #00d07e;
+	 color: #93AAAB;
+	 font-family: Inbue;
 	}
 
 	.footer-widget-heading h4{
@@ -171,7 +175,7 @@ ul{
 
 .copyright-area{
 	background-color: #edf7fa;
-	padding: 20px 0;
+	padding: 0px 0;
     }
 
     .copyright-text p{
@@ -179,7 +183,7 @@ ul{
     }
 
     .copyright-text a{
-    	color: #21bf73;
+    	color: #93AAAB;
     	font-weight: 600;
     }
 
@@ -240,3 +244,10 @@ ul{
     	}
 	}
 
+.btn {
+	margin: 20px;
+	color: white;
+	background-color: #93AAAB;
+	display: inline-block;
+	border-color:#93AAAB;
+}
