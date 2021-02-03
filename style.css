@@ -99,12 +99,12 @@ h4{
 
 .left-content2{
  	background-color: #DAE1DE;
-    border-radius: 7px;
+    border-radius: 1px;
     box-shadow: 15px 10px #85a5a3;
     background-size: cover;
     background-position: center;
     width: 40%;
-    height: 350px;
+    height: 250px;
 }
 
 .right-content2 {
