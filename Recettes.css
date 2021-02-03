@@ -59,8 +59,8 @@ body {
 
 h1{
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	font-family: myFont;
 	font-style: 2.6rem;
 }
@@ -75,8 +75,8 @@ p {
 
 h2{
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	font-family: Amatic SC;
 	font-style: 2.6rem;
 	}
