@@ -27,7 +27,21 @@ body {
   body {
     background-color: olive;
   }
+  .logo {
+    width: 15%;
+    height: auto;
+    padding: 0px 0px;
+  }
+	.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
 }
+
 
 
 /*div{
@@ -55,14 +69,15 @@ h1{
 p {
 	font-family: Inbue;
 	font-size:20px;
-	padding: 10px
+	padding: 10px;
+	text-align: justify;
 
 }
 
 h2{
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	font-family: Amatic SC;
 	font-style: 2.6rem;
 	}
@@ -76,15 +91,31 @@ h4{
 }
 
 .partie2 {
-	padding: 20px;
+	padding: 15px;
 	display:flex;
-	background-color: #DAE1DE;
+	background-color: #ffffff;
   }
 
-  .titretexte{
-	background-color: #DAE1DE;
-  }
 
+.left-content2{
+ 	background-color: #DAE1DE;
+    border-radius: 7px;
+    box-shadow: 15px 10px #85a5a3;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 350px;
+}
+
+.right-content2 {
+    width: 60%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    margin-left: 20px;
+}
 
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {

@@ -27,6 +27,19 @@ body {
   body {
     background-color: olive;
   }
+  .logo {
+    width: 15%;
+    height: auto;
+    padding: 0px 0px;
+  }
+	.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
 }
 
 
@@ -78,10 +91,6 @@ h4{
 	font-style: 1.6rem;
 }
 
-.carousel .slide{
- width: 70%;
-
-}
 
 .partie2 {
 	display:flex;
@@ -89,11 +98,7 @@ h4{
 	margin: 10px;
 	background-color: #ffffff;
   }
- .titretexte2{
- 	background-color: #ffffff;
- 	width: 60%;
- }
-
+ 
 
 .photo2{
 	max-width: 50%;
@@ -274,3 +279,14 @@ ul{
 	display: inline-block;
 	border-color:#93AAAB;
 }
+
+
+/*.left-content {
+    background-image: url(/assets/handvanilla-b9b9144….jpg);
+    width: 90%;
+    height: 350px;
+    border-radius: 7px;
+    box-shadow: 15px 10px #fecf62;
+    background-size: cover;
+    background-position: center;
+}*/
