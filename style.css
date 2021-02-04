@@ -96,15 +96,37 @@ h4{
 	background-color: #ffffff;
   }
 
-
-.left-content2{
+.left-content1{
+	background-image: url(Images/palm.jpg);
  	background-color: #DAE1DE;
     border-radius: 1px;
     box-shadow: 15px 10px #85a5a3;
     background-size: cover;
     background-position: center;
     width: 40%;
-    height: 250px;
+    height: 350px;
+}
+
+.left-content2{
+	background-image: url(Images/pulv.jpg);
+ 	background-color: #DAE1DE;
+    border-radius: 1px;
+    box-shadow: 15px 10px #85a5a3;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 350px;
+}
+
+.left-content3{
+	background-image: url(Images/unie.jpg);
+ 	background-color: #DAE1DE;
+    border-radius: 1px;
+    box-shadow: 15px 10px #85a5a3;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 350px;
 }
 
 .right-content2 {
