@@ -20,7 +20,9 @@ body {
 	color: black;
 }
 
-
+.carousel{
+	margin: 20px;
+}
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
@@ -41,13 +43,6 @@ body {
   }
 
 }
-
-
-/*div{
-	background-color: #ffffff;
-	margin: -10;
-}*/
-
 
 
 .logo img {
@@ -91,29 +86,6 @@ h4{
 	font-style: 1.6rem;
 }
 
-
-.partie2 {
-	display:flex;
-	align-items: column;
-	margin: 10px;
-	background-color: #ffffff;
-  }
- 
-
-.photo2{
-	max-width: 50%;
-	justify-content: space-around;
-}
-
-  .partie3{
-	background-color: #DAE1DE;
-}
-
-
-.titretexte3{
- 	background-color: #DAE1DE;
- 	margin:10px;
-}
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	height: 100px;
