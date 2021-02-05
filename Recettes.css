@@ -22,25 +22,6 @@ body {
 
 
 
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
-  }
-  .logo {
-    width: 15%;
-    height: auto;
-    padding: 0px 0px;
-  }
-	.navbar-nav {
-    display: flex;
-    flex-direction: row;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-  }
-
-}
 
 
 /*div{
@@ -71,6 +52,7 @@ p {
 	text-align: justify;
 	padding: 10px;
 	margin: 5px;
+	align-content: center;
 }
 
 h2{
@@ -85,7 +67,7 @@ h3{
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	font-family:myFont;
+	font-family:Amatic SC;
 	font-style: 1.6rem;
 }
 
@@ -98,8 +80,13 @@ h4{
 	font-style: 1.6rem;
 }
 
+.cards{
+    justify-content: space-around;
+    display: flex;
+    margin: 10px;
+}
 
-.partie2 {
+/*.partie2 {
 	display:flex;
 	align-items: column;
 	margin: 10px;
@@ -141,7 +128,67 @@ h4{
 .photo3{
 	max-width: 100%;
 	justify-content: space-between;
+}*/
+
+/*.partie2 {
+	padding: 15px;
+	display:flex;
+	background-color: #ffffff;
+  }
+
+.left-content1{
+	background-image: url(Images/macarons.png);
+ 	background-color: #DAE1DE;
+    border-radius: 1px;
+    box-shadow: 15px 10px #85a5a3;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 350px;
 }
+
+.left-content2{
+	background-image: url(Images/pulv.jpg);
+ 	background-color: #DAE1DE;
+    border-radius: 1px;
+    box-shadow: 15px 10px #85a5a3;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 350px;
+}
+
+.left-content3{
+	background-image: url(Images/cookies1.png);
+ 	background-color: #DAE1DE;
+    border-radius: 1px;
+    box-shadow: 15px 10px #85a5a3;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 350px;
+}
+
+.right-content2 {
+    width: 60%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.right-content3 {
+    width: 60%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    margin-left: 20px;
+}*/
+
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	height: 100px;
@@ -157,10 +204,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	height: 25vh;
 }
 
-.column{ 
-column-count: 3;
-
-}
 
 ul{
 	align-items: : center;
@@ -315,4 +358,33 @@ ul{
 	background-color: #93AAAB;
 	display: inline-block;
 	border-color:#93AAAB;
+}
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+  .logo {
+    width: 15%;
+    height: auto;
+    padding: 0px 0px;
+  }
+	.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .cards{
+    justify-content: space-around;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
