@@ -67,7 +67,7 @@ h4{
   }
 
 .left-content1{
-	background-image: url(Images/pp.png);
+	background-image: url(../Images/pp.png);
  	background-color: #DAE1DE;
     border-radius: 1px;
     box-shadow: 15px 10px #85a5a3;
@@ -78,7 +78,7 @@ h4{
 }
 
 .left-content2{
-	background-image: url(Images/pulv.jpg);
+	background-image: url(../Images/pulv.jpg);
  	background-color: #DAE1DE;
     border-radius: 1px;
     box-shadow: 15px 10px #85a5a3;
@@ -89,7 +89,7 @@ h4{
 }
 
 .left-content3{
-	background-image: url(Images/cookies1.png);
+	background-image: url(../Images/cookies1.png);
  	background-color: #DAE1DE;
     border-radius: 1px;
     box-shadow: 15px 10px #85a5a3;
@@ -246,7 +246,7 @@ ul{
     list-style: none;
   }
   .left-content1{
-	background-image: url(Images/pp.png);
+	background-image: url(../Images/pp.png);
  	background-color: #DAE1DE;
     border-radius: 1px;
     box-shadow: 15px 10px #85a5a3;
@@ -258,7 +258,7 @@ ul{
   }
 
   .left-content2{
-	background-image: url(Images/pulv.jpg);
+	background-image: url(../Images/pulv.jpg);
  	background-color: #DAE1DE;
     border-radius: 1px;
     box-shadow: 15px 10px #85a5a3;
@@ -295,7 +295,7 @@ ul{
     order:1;
   }
   .left-content3{
-	background-image: url(Images/cookies1.png);
+	background-image: url(../Images/cookies1.png);
  	background-color: #DAE1DE;
     border-radius: 1px;
     box-shadow: 15px 10px #85a5a3;
