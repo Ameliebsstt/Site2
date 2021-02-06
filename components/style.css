@@ -4,7 +4,6 @@
 }
 /* Set the background color of body to tan */
 
-
 body {
   background-color: #ffffff;
 }
@@ -27,6 +26,8 @@ body {
 
 }
 
+
+/* --Elements Principaux --*/
 h1{
 	text-align: center;
 	margin-top: 30px;
@@ -59,6 +60,8 @@ h4{
 	font-family:Amatic SC;
 	font-style: 1.6rem;
 }
+
+/* -- Contenu --*/
 
 .partie2 {
 	padding: 15px;
@@ -120,6 +123,7 @@ h4{
 }
 
 
+/*-- Barre de Navigation --*/
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	height: 100px;
@@ -136,7 +140,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	height: 25vh;
 }
 
-/* default list style css */
+/* --default list style css --*/
+
 ul{
     margin: 0px;
     padding: 0px;
@@ -146,7 +151,7 @@ ul{
 	list-style: none;
     }
 
-/* footer credit css */
+/* --footer credit css -- */
 
 .copyright-area{
 	background-color: #edf7fa;
@@ -173,7 +178,7 @@ ul{
 	}
 
 
-/*media quries*/
+/*-- media quries --*/
 
 	@media (max-width: 1199.98px) {
 
@@ -318,7 +323,7 @@ ul{
 		padding: 10px 0;
 	}
 
-/* main footer inner css */
+/* --main footer inner css --*/
 
 .footer-widget-area p{
 		font-size: 20px;

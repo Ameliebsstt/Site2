@@ -20,6 +20,9 @@ body {
 	color: black;
 }
 
+
+/* -- Contenu --*/
+
 .carousel{
 	margin: 20px;
 }
@@ -51,6 +54,8 @@ body {
 	padding: 100px 20px;
 
 }
+
+/* --Elements Principaux --*/
 
 h1{
 	text-align: center;
@@ -87,6 +92,9 @@ h4{
 }
 
 
+/*-- Barre de Navigation --*/
+
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	height: 100px;
 	position: fixed;
@@ -102,7 +110,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	height: 25vh;
 }
 
-/* default list style css */
+/*-- default list style css --*/
+
 ul{
     margin: 0px;
     padding: 0px;
@@ -112,7 +121,8 @@ ul{
 	list-style: none;
     }
 
-/* main footer css */
+/*-- main footer css --*/
+
 #primary-footer{
 	background-color: #edf7fa;
 	}
@@ -121,7 +131,7 @@ ul{
 		padding: 10px 0;
 	}
 
-/* main footer inner css */
+/* --main footer inner css --*/
 
 .footer-widget-area p{
 		font-size: 20px;
@@ -172,7 +182,7 @@ ul{
     text-align: center;
 }
 
-/* footer credit css */
+/*--footer credit css --*/
 
 .copyright-area{
 	background-color: #edf7fa;
@@ -252,14 +262,3 @@ ul{
 	display: inline-block;
 	border-color:#93AAAB;
 }
-
-
-/*.left-content {
-    background-image: url(/assets/handvanilla-b9b9144….jpg);
-    width: 90%;
-    height: 350px;
-    border-radius: 7px;
-    box-shadow: 15px 10px #fecf62;
-    background-size: cover;
-    background-position: center;
-}*/

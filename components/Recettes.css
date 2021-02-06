@@ -29,6 +29,8 @@ body {
 
 }
 
+/* --Elements Principaux --*/
+
 h1{
 	text-align: center;
 	margin-top: 10px;
@@ -71,6 +73,10 @@ h4{
 	font-style: 1.6rem;
 }
 
+
+/* -- Contenu --*/
+
+
 .cards{
     justify-content: space-around;
     display: flex;
@@ -78,6 +84,7 @@ h4{
 }
 
 
+/*-- Barre de Navigation --*/
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	height: 100px;
