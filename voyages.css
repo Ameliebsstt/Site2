@@ -27,7 +27,7 @@ body {
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   body {
-    background-color: olive;
+    background-color: white;
   }
   .logo {
     width: 15%;
@@ -65,7 +65,7 @@ p {
 	font-size:20px;
 	text-align: justify;
 	padding: 10px;
-	margin: 5px;
+	margin: 30px;
 
 }
 

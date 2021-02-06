@@ -22,15 +22,6 @@ body {
 
 
 
-
-
-/*div{
-	background-color: #ffffff;
-	margin: -10;
-}*/
-
-
-
 .logo img {
 	width: 15px;
 	height: auto;
@@ -51,7 +42,7 @@ p {
 	font-size:18px;
 	text-align: justify;
 	padding: 10px;
-	margin: 5px;
+	margin: 10px;
 	align-content: center;
 }
 
@@ -264,7 +255,7 @@ ul{
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   body {
-    background-color: olive;
+    background-color: white;
   }
   .logo {
     width: 15%;
