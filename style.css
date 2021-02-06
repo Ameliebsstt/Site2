@@ -124,6 +124,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	height: 100px;
 	position: fixed;
 	width: 100%;
+	z-index: 10;
 }
 
 .container-fluid {
