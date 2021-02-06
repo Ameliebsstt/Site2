@@ -4,6 +4,10 @@
 @import url("components/voyages.css");
 @import url("components/Recettes.css");
 
+@font-face{
+	font-family: "myFont";
+  src: url("Secret Winter.ttf");
+
 
 /*Essai pour re faire apparaitre mes images*/
 
